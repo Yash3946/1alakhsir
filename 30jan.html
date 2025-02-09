@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url("font.css");
+    *,::after,::before{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-size: contain;
+    }
+    h1{
+        font-size: 2.7rem;
+        font-family: Poppins-Bold;
+        padding: 1rem 10rem;
+        line-height: 1.4em;
+        background-color: rgb(127, 185, 255);
+    }
+    p{
+        font-size: 1.8rem;
+        text-align: justify;
+    }
+    .box{
+        padding: 1rem 10rem;
+    }
+    #divid1{
+        background-color: rgb(220, 185, 123);
+    }
+    #divid2{
+        background-color: rgb(127, 185, 255);
+    }
+    #divid3{
+        position: relative;
+        overflow: hidden;
+    }
+    #snowimg{
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0.8;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: fill;
+    }
+    .btn{
+        padding: 10px 35px;
+        font-size: 1rem;
+        border-radius: 7px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: rgb(215, 71, 39);
+        font-weight: 900;
+    }
+    #btn1:hover,#btn2:hover{
+        border-color: rgb(27, 123, 239);
+    }
+    #btn3:hover,#btn4:hover{
+        border-color: rgb(209, 155, 63);
+    }
+    #btn5:hover,#btn6:hover{
+        border-color: rgb(32, 6, 134);
+    }
+
+</style>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum delectus amet natus repellat.</h1>
+    <div class="box" id="divid1">
+        <p class="para" id="paraid1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab unde voluptates mollitia facilis sit minima est asperiores. Corrupti aut ratione perferendis neque iure nostrum natus voluptatum sint assumenda minus esse sed, molestiae mollitia, officia ad voluptatem iusto nihil molestias! Magnam aut sint minus dolore aliquam ea velit, error eaque?</p>
+        <button class="btn" id="btn1">Btn 1</button>
+        <button class="btn" id="btn2">Btn 2</button>
+    </div>
+    <div class="box" id="divid2">
+        <p class="para" id="paraid2">Amet ipsum maiores odit? Itaque unde necessitatibus iusto natus error. Totam porro, suscipit dolorem vitae culpa facere dignissimos voluptas doloremque labore illo cum soluta architecto molestias quibusdam repellat ipsa, id esse. Veniam libero sunt, molestiae eos culpa commodi nostrum totam deserunt pariatur similique ex sapiente ab blanditiis id maiores! A.</p>
+        <button class="btn" id="btn3">Btn 3</button>
+        <button class="btn" id="btn4">Btn 4</button>
+    </div>
+    <div class="box" id="divid3">
+        <img src="/winter-landscape-636634_1280.jpg" class="img" id="snowimg" alt="">
+        <p class="para" id="paraid3">Deleniti asperiores recusandae natus voluptate ea, quidem corporis id. Impedit, totam suscipit tempore id tempora soluta itaque autem exercitationem eveniet eligendi necessitatibus consequatur sapiente vel reprehenderit quas quo facilis nam quasi quisquam ducimus aperiam vero saepe repudiandae fuga. Eaque aspernatur cupiditate nulla itaque dignissimos culpa repellat dolor corporis, magnam sit.</p>
+        <button class="btn" id="btn5">Btn 5</button>
+        <button class="btn" id="btn6">Btn 6</button>
+    </div>
+</body>
+</html>

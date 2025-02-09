@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+              
+           <div> First name: <input required id="fname" name="fName"> 
+           </div>
+           <!-- use <div></div> = blanck side not use  -->
+       
+           <div>
+            <label for="lName"> Last name : <input type="text" id="lName"></label>
+            <!-- use label tag = make full line link -->
+        </div>
+        <div>
+            <input  placeholder="Email" type="text" type="email">
+        </div>
+       
+       
+        <div>
+            Upload your recent photo: <input type="file" name="" id="">
+            <div>
+                How did you come to know about us? <br>
+                <input type="checkbox" name="" id=""> Newspaper Ad <br>
+                <input type="checkbox" name="" id="">Reference <br>
+                <input type="checkbox">Social Media <br>
+                <input type="checkbox" name="" onclick="document.getElementById('hidden').type = 'text'">
+                Other
+                <input id="hidden" type="hidden" name="">
+            </div>
+            
+                <div>
+                    <input type="checkbox" name="tnc" id="tnc" required>
+                    <label for="tnc">I agree to the terms of services</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="sms" checked>
+                    <label for="sms">I would like to recieve notifications about offers etc through sms/whatsapp/email</label>
+                </div>
+                <div>
+                    <input type="submit" value="register">
+                </div>
+        
+            
+
+<br>
+<br>    
+<div><input type="button" value="no action"></div>
+<div><input type="checkbox"></div>
+<div><input type="color" name="color" id=""></div>
+<div><input type="date"></div>
+<div><input type="datetime" placeholder="datetime" name="datetime"></div>
+<div><input type="datetime-local"></div>
+<div><input type="email" placeholder="email" name="email"></div>
+<div><input type="hidden"></div>
+<div><input type="image"></div>
+<div><input type="month"></div>
+<div><input type="number" placeholder="number" name="number"></div>
+<div><input type="password" placeholder="password" name="password"></div>
+<div><input type="radio"></div>
+<div><input type="range"></div>
+<div><input type="reset"></div>
+<div><input type="search" placeholder="search"></div>
+<div><input type="submit"></div>
+<div><input type="tel" placeholder="tel" name="tel"></div>
+<div><input type="text" placeholder="text" name="text"></div>
+<div><input type="time"></div>
+<div><input type="url" placeholder="url" name="url"></div>
+<div><input type="week"></div>
+<br>
+<br>
+<div><input type="submit" value="register"></div>
+</form>
+
+
+
+
+
+
+<div>
+    Quantity: <input type="number" name="quantity" id="" min="0" max="6">
+</div>
+<br>
+<input type="tel" name="" id="">
+<br>
+Gender: <br>
+<input type="radio" name="gender" id="female"> <label for="female">Female</label> <br>
+<input type="radio" name="gender" id="male"> <label for="male">Male</label> <br>
+<input type="radio" name="gender" id="other"> <label for="other">Other</label>
+<br>
+Mode of Payment: <br>
+<input type="radio" name="payment" id="cod"> <label for="cod">COD</label> <br>
+<input type="radio" name="payment" id="card"> <label for="card">Card</label> <br>
+<input type="radio" name="payment" id="netbanking"> <label for="netbanking">Netbanking</label> <br>
+<input type="radio" name="payment" id="upi"> <label for="upi">UPI</label> <br>
+
+Choose your rent:
+<!-- 10000 <input type="range" min="10000" max="60000" value="20000" name="budget" id=""> 60000  -->
+<input type="range" value="20000" min="10000" max="60000" step="1000" oninput="this.nextElementSibling.value = this.value">
+<output>20000</output>
+<br>
+<input type="url" name="" id="" placeholder="Your website..."> <br>
+
+<input type="submit" value="Submit">
+<br>
+
+</form>
+</body>
+</html>

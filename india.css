@@ -1,0 +1,15 @@
+.first{
+    position: absolute;
+    background-color: orange;
+}
+.second{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.third{
+    position: absolute;
+    top: 120px;
+    left:100px;
+    background-color: green;
+}

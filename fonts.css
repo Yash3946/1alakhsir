@@ -1,0 +1,49 @@
+@font-face {
+    font-family: popins;
+    src: url("/Poppins/Poppins-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: popins;
+    src: url("/Poppins/Poppins-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: redhat;
+    src: url("/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: redhat;
+    src: url("/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("/Roboto/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: roboto;
+    src: url("/Roboto/Roboto-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: lemon;
+    src: url(/Lemon/Lemon-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: bungee_spice;
+    src: url(/Bungee_Spice/BungeeSpice-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: fjalla_one;
+    src: url(/Fjalla_One/FjallaOne-Regular.ttf);
+    font-weight: 700;
+}
